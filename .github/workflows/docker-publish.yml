@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "replit-agent" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "replit-agent" ]
 
 env:
   # Use docker.io for Docker Hub if empty
